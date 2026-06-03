@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,6 +19,10 @@ public class PlayerController : MonoBehaviour
     private Sprite[] currentSprites;
     private int frameIndex = 0;
     private float timer = 0f;
+
+    private bool WeaponGet = false;
+
+    float score;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -45,6 +51,11 @@ public class PlayerController : MonoBehaviour
                 frameIndex = 0;
 
             sr.sprite = currentSprites[frameIndex];
+        }
+
+        if (WeaponGet)
+        {
+            
         }
     }
 
@@ -96,4 +107,30 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Respawn"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        if (collision.CompareTag("Finish"))
+        {
+            StageResultSaver.SaveStage(SceneManager.GetActiveScene().buildIndex, (int)score);
+
+            collision.GetComponent<LevelObject>().MoveToNextLevel();
+        }
+
+        if (collision.CompareTag("Enemy"))
+        {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        if (collision.CompareTag("weapon"))
+        {
+            WeaponGet = true;
+        }
+    }
+    
 }

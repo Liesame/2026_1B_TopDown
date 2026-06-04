@@ -1,3 +1,4 @@
+using UnityEditor.Build;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -6,7 +7,7 @@ using UnityEngine.SocialPlatforms.Impl;
 public class PlayerController : MonoBehaviour
 {
 
-    public float moveSpeed = 5f;
+    public float moveSpeed = 0f;
     public Sprite[] spriteUp;
     public Sprite[] spriteDown;
     public Sprite[] spriteLeft;
@@ -19,15 +20,38 @@ public class PlayerController : MonoBehaviour
     private Sprite[] currentSprites;
     private int frameIndex = 0;
     private float timer = 0f;
+    public int playerHP = 0;
+    public int playerAttack = 0;
 
     private bool WeaponGet = false;
 
     float score;
 
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
+
+        currentSprites = spriteDown;
+        sr.sprite = currentSprites[0];
+
+        moveSpeed = GameDataManager.Instance.GetPlayerMoveSpeed();
+        playerHP = GameDataManager.Instance.GetPlayerHp();
+        playerAttack = GameDataManager.Instance.GetPlayerAttack();
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        if(GameDataManager.Instance.isTutorialFinished == 0)
+        {
+            Debug.Log("튜토리얼 오픈!");
+            GameDataManager.Instance.isTutorialFinished = 1;
+        }
+        else
+        {
+
+        }
     }
 
     // Update is called once per frame
@@ -75,15 +99,6 @@ public class PlayerController : MonoBehaviour
         sr.sprite = currentSprites[frameIndex];
     }
 
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        sr = GetComponent<SpriteRenderer>();
-
-        currentSprites = spriteDown;
-        sr.sprite = currentSprites[0];
-    }
-
     public void OnMove(InputValue value)
     {
         input = value.Get<Vector2>();
@@ -112,7 +127,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.CompareTag("Respawn"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            GameManager.Instance.GameOver();
         }
 
         if (collision.CompareTag("Finish"))
@@ -124,7 +139,7 @@ public class PlayerController : MonoBehaviour
 
         if (collision.CompareTag("Enemy"))
         {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            GameManager.Instance.GameOver();
         }
 
         if (collision.CompareTag("weapon"))

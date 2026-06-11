@@ -1,3 +1,5 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEditor.Build;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -27,6 +29,8 @@ public class PlayerController : MonoBehaviour
 
     float score;
 
+    public List<GameObject> weaponPrefab;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -35,15 +39,17 @@ public class PlayerController : MonoBehaviour
         currentSprites = spriteDown;
         sr.sprite = currentSprites[0];
 
-        moveSpeed = GameDataManager.Instance.GetPlayerMoveSpeed();
-        playerHP = GameDataManager.Instance.GetPlayerHp();
-        playerAttack = GameDataManager.Instance.GetPlayerAttack();
+        
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if(GameDataManager.Instance.isTutorialFinished == 0)
+        moveSpeed = GameDataManager.Instance.GetPlayerMoveSpeed();
+        playerHP = GameDataManager.Instance.GetPlayerHp();
+        playerAttack = GameDataManager.Instance.GetPlayerAttack();
+
+        if (GameDataManager.Instance.isTutorialFinished == 0)
         {
             Debug.Log("튜토리얼 오픈!");
             GameDataManager.Instance.isTutorialFinished = 1;
@@ -79,7 +85,7 @@ public class PlayerController : MonoBehaviour
 
         if (WeaponGet)
         {
-            
+            weaponPrefab[0].gameObject.SetActive(true);
         }
     }
 
@@ -139,12 +145,20 @@ public class PlayerController : MonoBehaviour
 
         if (collision.CompareTag("Enemy"))
         {
-            GameManager.Instance.GameOver();
+
+            playerHP -= 100;
+
+            if (playerHP < 0)
+            {
+                GameManager.Instance.GameOver();
+            }
+
         }
 
         if (collision.CompareTag("weapon"))
         {
             WeaponGet = true;
+            Destroy(collision.gameObject);
         }
     }
     

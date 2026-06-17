@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\fork\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Library\\PackageCache\\com.unity.render-pipelines.universal@7228970dbdbf\\Editor\\BuildProcessors\\URPPreprocessBuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@7228970dbdbf\\Editor\\BuildProcessors\\URPPreprocessBuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\fork\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\damage object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\damage object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\fork\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\fork\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\titlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,15 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "URPPreprocessBuild.cs",
               "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Library\\PackageCache\\com.unity.render-pipelines.universal@7228970dbdbf\\Editor\\BuildProcessors\\URPPreprocessBuild.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@7228970dbdbf\\Editor\\BuildProcessors\\URPPreprocessBuild.cs",
@@ -115,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemy.cs",
@@ -123,12 +119,11 @@
               "RelativeToolTip": "Assets\\Script\\Enemy.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAwCUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T03:59:30.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T03:59:30.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Damage Object.cs",
               "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\Damage Object.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Damage Object.cs",
@@ -164,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameDataManager.cs",
               "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\GameDataManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameDataManager.cs",
@@ -176,15 +171,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
               "ToolTip": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAiwKUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T11:04:46.613Z"
+              "WhenOpened": "2026-06-03T11:04:46.613Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -200,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SaveData.cs",
               "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\SaveData.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SaveData.cs",

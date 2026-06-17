@@ -8,7 +8,6 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController : MonoBehaviour
 {
-
     public float moveSpeed = 0f;
     public Sprite[] spriteUp;
     public Sprite[] spriteDown;
@@ -38,11 +37,8 @@ public class PlayerController : MonoBehaviour
 
         currentSprites = spriteDown;
         sr.sprite = currentSprites[0];
-
-        
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         moveSpeed = GameDataManager.Instance.GetPlayerMoveSpeed();
@@ -54,16 +50,11 @@ public class PlayerController : MonoBehaviour
             Debug.Log("튜토리얼 오픈!");
             GameDataManager.Instance.isTutorialFinished = 1;
         }
-        else
-        {
-
-        }
     }
 
-    // Update is called once per frame
     private void Update()
     {
-        if(input.sqrMagnitude <= 0.01f)
+        if (input.sqrMagnitude <= 0.01f)
         {
             frameIndex = 0;
             sr.sprite = currentSprites[frameIndex];
@@ -139,20 +130,31 @@ public class PlayerController : MonoBehaviour
         if (collision.CompareTag("Finish"))
         {
             StageResultSaver.SaveStage(SceneManager.GetActiveScene().buildIndex, (int)score);
-
             collision.GetComponent<LevelObject>().MoveToNextLevel();
         }
 
+        // --- 적과 충돌했을 때 로직 수정 ---
         if (collision.CompareTag("Enemy"))
         {
-
-            playerHP -= 100;
-
-            if (playerHP < 0)
+            if (WeaponGet)
             {
-                GameManager.Instance.GameOver();
+                // 무기가 있다면 적에게 플레이어의 공격력만큼 데미지를 줌
+                Enemy enemy = collision.GetComponent<Enemy>();
+                if (enemy != null)
+                {
+                    enemy.TakeDamage(playerAttack);
+                }
             }
+            else
+            {
+                // 무기가 없다면 기존처럼 플레이어가 피해를 입음
+                playerHP -= 100;
 
+                if (playerHP < 0)
+                {
+                    GameManager.Instance.GameOver();
+                }
+            }
         }
 
         if (collision.CompareTag("weapon"))
@@ -161,5 +163,4 @@ public class PlayerController : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
-    
 }

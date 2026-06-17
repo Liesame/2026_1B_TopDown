@@ -113,6 +113,75 @@ public class GameDataManager : MonoBehaviour
         Debug.Log("PlayerPrefs 삭제 완료");
     }
 
+    public void CheckAchievement(int achievementIndex)
+    {
+        if (achievementIndex >= 0 && achievementIndex < saveData.achievementCompleted.Length)
+        {
+            if (!saveData.achievementCompleted[achievementIndex])
+            {
+                saveData.achievementCompleted[achievementIndex] = true;
+                Debug.Log($"도전과제 {achievementIndex} 달성!");
+                SaveJsonData(); // 변경 즉시 저장
+            }
+        }
+    }
+
+    // 조건에 따른 자동 체크 예시
+    public void UpdateProgress(string action)
+    {
+        switch (action)
+        {
+            case "KnifeGet":
+                saveData.knifeGet = true;
+                CheckAchievement(0); // 0번 과제: 칼 획득
+                break;
+            case "KillEnemy":
+                saveData.killEnemy = true;
+                CheckAchievement(2); // 1번 과제: 적 처치
+                break;
+            case "StartPlayer":
+                saveData.startPlayer = true;
+                CheckAchievement(1); // 1번 과제: 적 처치
+                break;
+            case "NextStage":
+                saveData.nextStage = true;
+                CheckAchievement(3); // 1번 과제: 적 처치
+                break;
+        }
+    }
+
+    public void OnEnemyDeath()
+    {
+        // 1. 데이터 업데이트
+        GameDataManager.Instance.UpdateProgress("KillEnemy");
+
+    }
+
+    public void OnKnifeGet()
+    {
+        // 1. 데이터 업데이트
+        GameDataManager.Instance.UpdateProgress("KnifeGet");
+    }
+
+    public void OnStartPlayer()
+    {
+        // 1. 데이터 업데이트
+        GameDataManager.Instance.UpdateProgress("StartPlayer");
+    }
+
+    public void OnNextStage()
+    {
+        // 1. 데이터 업데이트
+        GameDataManager.Instance.UpdateProgress("NextStage");
+    }
+
+    public void AddScore(int amount)
+    {
+        saveData.totalScore += amount;
+        Debug.Log($"스코어 증가! 현재 스코어: {saveData.totalScore}");
+        SaveJsonData(); // 변경 시마다 JSON에 자동 저장
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

@@ -1,42 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\",
+  "WorkspaceRootPath": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\102_12\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Library\\PackageCache\\com.unity.render-pipelines.universal@7228970dbdbf\\Editor\\BuildProcessors\\URPPreprocessBuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@7228970dbdbf\\Editor\\BuildProcessors\\URPPreprocessBuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\102_12\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\gamedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\102_12\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\damage object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\damage object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\102_12\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\fork\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\102_12\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\titlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\fork\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\gamedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\fork\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\fork\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\damage object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\damage object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\fork\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\fork\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\titlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\titlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\102_12\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\fork\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\102_12\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\stagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\stagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\fork\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\102_12\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\gamesettingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\fork\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\gamesettingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamesettingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\102_12\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\fork\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\fork\\2026_1b_topdown\\2026_1b_topdown\\assets\\script\\stagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\stagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,122 +58,157 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Damage Object.cs",
-              "DocumentMoniker": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\Damage Object.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Damage Object.cs",
-              "ToolTip": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\Damage Object.cs",
-              "RelativeToolTip": "Assets\\Script\\Damage Object.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "URPPreprocessBuild.cs",
+              "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Library\\PackageCache\\com.unity.render-pipelines.universal@7228970dbdbf\\Editor\\BuildProcessors\\URPPreprocessBuild.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@7228970dbdbf\\Editor\\BuildProcessors\\URPPreprocessBuild.cs",
+              "ToolTip": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Library\\PackageCache\\com.unity.render-pipelines.universal@7228970dbdbf\\Editor\\BuildProcessors\\URPPreprocessBuild.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@7228970dbdbf\\Editor\\BuildProcessors\\URPPreprocessBuild.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAqwEgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T06:16:46.994Z",
+              "WhenOpened": "2026-06-17T13:02:28.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
+              "Title": "Achievement.cs",
+              "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\Achievement.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Achievement.cs",
+              "ToolTip": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\Achievement.cs",
+              "RelativeToolTip": "Assets\\Script\\Achievement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T12:41:51.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameSettingData.cs",
+              "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\GameSettingData.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameSettingData.cs",
+              "ToolTip": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\GameSettingData.cs",
+              "RelativeToolTip": "Assets\\Script\\GameSettingData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T04:39:32.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\Monster.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Monster.cs",
+              "ToolTip": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\Monster.cs",
+              "RelativeToolTip": "Assets\\Script\\Monster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T10:22:50.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\Enemy.cs",
+              "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemy.cs",
-              "ToolTip": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\Enemy.cs",
+              "ToolTip": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\Enemy.cs",
               "RelativeToolTip": "Assets\\Script\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T03:59:30.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
-              "ToolTip": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Script\\GameManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T05:31:56.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TitleManager.cs",
-              "DocumentMoniker": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\TitleManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\TitleManager.cs",
-              "ToolTip": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\TitleManager.cs",
-              "RelativeToolTip": "Assets\\Script\\TitleManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "Damage Object.cs",
+              "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\Damage Object.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Damage Object.cs",
+              "ToolTip": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\Damage Object.cs",
+              "RelativeToolTip": "Assets\\Script\\Damage Object.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T05:28:47.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameDataManager.cs",
-              "DocumentMoniker": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\GameDataManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\GameDataManager.cs",
-              "ToolTip": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\GameDataManager.cs",
-              "RelativeToolTip": "Assets\\Script\\GameDataManager.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAD4v0AAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T04:53:58.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAnwJkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T11:04:46.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StageManager.cs",
-              "DocumentMoniker": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\StageManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\StageManager.cs",
-              "ToolTip": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\StageManager.cs",
-              "RelativeToolTip": "Assets\\Script\\StageManager.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T05:54:34.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SaveData.cs",
-              "DocumentMoniker": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\SaveData.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SaveData.cs",
-              "ToolTip": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\SaveData.cs",
-              "RelativeToolTip": "Assets\\Script\\SaveData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T04:52:35.211Z"
+              "WhenOpened": "2026-06-11T06:16:46.994Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "GameSettingData.cs",
-              "DocumentMoniker": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\GameSettingData.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\GameSettingData.cs",
-              "ToolTip": "C:\\Users\\102_12\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\GameSettingData.cs",
-              "RelativeToolTip": "Assets\\Script\\GameSettingData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAmAAAAAAAAAA==",
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
+              "ToolTip": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Script\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T04:39:32.408Z"
+              "WhenOpened": "2026-06-04T05:31:56.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TitleManager.cs",
+              "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\TitleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\TitleManager.cs",
+              "ToolTip": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\TitleManager.cs",
+              "RelativeToolTip": "Assets\\Script\\TitleManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T05:28:47.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameDataManager.cs",
+              "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\GameDataManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameDataManager.cs",
+              "ToolTip": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\GameDataManager.cs",
+              "RelativeToolTip": "Assets\\Script\\GameDataManager.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAgwLYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T04:53:58.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
+              "ToolTip": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAiwKUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T11:04:46.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StageManager.cs",
+              "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\StageManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\StageManager.cs",
+              "ToolTip": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\StageManager.cs",
+              "RelativeToolTip": "Assets\\Script\\StageManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAywBAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:54:34.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SaveData.cs",
+              "DocumentMoniker": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\SaveData.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SaveData.cs",
+              "ToolTip": "C:\\fork\\2026_1B_TopDown\\2026_1B_TopDown\\Assets\\Script\\SaveData.cs",
+              "RelativeToolTip": "Assets\\Script\\SaveData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T04:52:35.211Z"
             }
           ]
         }

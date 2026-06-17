@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 
     public static GameManager Instance;
     public string titleSceneName = "TitleScene";
-    public string gameSceneName = "GameScene";
+    public string gameSceneName = "stage_001";
 
     private void Awake()
     {
